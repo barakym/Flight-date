@@ -43,7 +43,7 @@ p {
 
 #countdown ul li span {
     display: block; /* Make the day/hour/etc. text appear below the number */
-    font-size: 1em; /* Make this text smaller */
+    font-size: 2em; /* Make this text smaller */
     font-weight: normal;
     color: #666; /* A lighter gray for this text */
 }
