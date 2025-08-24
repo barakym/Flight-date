@@ -34,7 +34,7 @@ p {
 
 #countdown ul li {
     display: inline-block; /* Put the list items side-by-side */
-    font-size: 6em; /* Make the countdown numbers large */
+    font-size: 8em; /* Make the countdown numbers large */
     font-weight: bold;
     padding: 0 15px;
     color: #007bff; /* A nice blue color for the numbers */
