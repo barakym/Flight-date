@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f8ff; /* A light, sky-blue color */
+    font-family: 'Arial', sans-serif; /* A clean, simple font */
+    text-align: center; /* Center all text on the page */
+    padding-top: 50px; /* Add some space at the top */
+    color: #333; /* Dark gray text color */
+}
+
+h1 {
+    color: #004d99; /* A dark blue color for the heading */
+    font-size: 3em; /* Make the font larger */
+    text-transform: uppercase; /* Make the text all caps */
+    letter-spacing: 2px; /* Add space between letters */
+}
+
+p {
+    font-size: 1.2em; /* Slightly larger paragraph text */
+}
+
+#countdown {
+    background-color: #ffffff; /* White background for the countdown box */
+    border-radius: 15px; /* Round the corners of the box */
+    padding: 20px;
+    display: inline-block; /* Make the box only as wide as its content */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow for a 3D effect */
+    margin-top: 20px;
+}
+
+#countdown ul {
+    list-style-type: none; /* Remove the bullet points from the list */
+    padding: 0;
+    margin: 0;
+}
+
+#countdown ul li {
+    display: inline-block; /* Put the list items side-by-side */
+    font-size: 3em; /* Make the countdown numbers large */
+    font-weight: bold;
+    padding: 0 15px;
+    color: #007bff; /* A nice blue color for the numbers */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#countdown ul li span {
+    display: block; /* Make the day/hour/etc. text appear below the number */
+    font-size: 0.5em; /* Make this text smaller */
+    font-weight: normal;
+    color: #666; /* A lighter gray for this text */
+}
+
